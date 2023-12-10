@@ -1,0 +1,396 @@
+﻿@model List<WebApplication2.Models.Product>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_LayoutPage1.cshtml";
+    <link rel="stylesheet" href="~/Content/Css/Product.css" />
+    <script src="~/Content/aos-master/dist/aos.js"></script>
+
+    <link href="~/Content/aos-master/dist/aos.css" rel="stylesheet">
+}
+<div class="container">
+    <div class="fillproduct">
+        <table class="table">
+            <tr>
+                <th>
+                    <select name="Categorypro" class="form-control" style="width: 200px;">
+                        <option>Salty Cake</option>
+                        <option>Sweetie Cake</option>
+                        <option>Cream Cake</option>
+
+                    </select>
+
+
+                </th>
+                <th>
+                    <select name="Price" class="form-control" style="width: 200px;float: right">
+                        <option>100.000-200.000</option>
+                        <option>200.000-400.000</option>
+                        <option>400.000-800.000</option>
+
+                    </select>
+                </th>
+            </tr>
+        </table>
+    </div>
+    <div class="containerproduct">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="itemproduct">
+                        <img src="~/Content/imglayers/banhngot/Cheesecake_PN06.jpg" class="imgproduct" />
+                        <p class="nameproduct">Cheese Cake</p>
+                        <p class="Priceproduct">200$</p>
+                        <p class="totalproduct">Total : 200 cakes</p>
+                        <hr class="hr-1" />
+                        <div style="display: flex; position: relative; bottom: 45px;">
+
+                            <i class="fa-solid fa-cake-candles" style=" margin-left: 10px;"></i>100 Cakes have saled
+                            <div class="start">
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                                <i class="fa-solid fa-star" style="color: #fff82e;"></i>
+                            </div>
+                        </div>
+
+
+                        <hr class="hr-2" />
+                        <p class="namestore">LAYERS</p>
+                        <div class="decofooteritem">
+                            <div>
+                                <img src="~/Content/imglayers/2.png" class="imgeight" />
+                            </div>
+                            <div style="margin-left: 10px">
+                                <b>Layers Cake</b>
+                                <p>0899073148</p>
+                            </div>
+
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<div class="bannerproduct">
+    <img src="~/Content/imglayers/2.png" data-aos="fade-up" style="height: 500px;width: 100%;margin-top: 30px;" data-aos-duration="2000" />
+</div>
+<script>
+    AOS.init();
+</script>
+
